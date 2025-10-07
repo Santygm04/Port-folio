@@ -15,7 +15,7 @@ const allProjects = [
   },
   {
     id:2,
-    title:'E-commerce Jugueteria',
+    title:'E-commerce Tienda',
     img:'/src/assets/project2.svg',
     desc:'Tienda online minorista de ropa para hombre y mujer con carrito de compras, filtros por género y tallas, y sistema de pagos integrado',
     stack:['React','Node.js','Tailwind','JavaScript','MongoDB'],

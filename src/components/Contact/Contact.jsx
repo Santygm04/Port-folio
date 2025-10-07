@@ -100,7 +100,7 @@ const onSubmit = async e => {
               <p className="subtle">Estoy disponible para proyectos freelance, colaboración o dudas técnicas.</p>
               <ul className={styles.links}>
                 <li><a href="mailto:santiagogilmina2@gmail.com" className="btn secondary">santiagogilmina2@gmail.com</a></li>
-                <li><a className="btn secondary" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a></li>
+                <li><a className="btn secondary" href="https://github.com/Santygm04" target="_blank" rel="noreferrer">GitHub</a></li>
                 <li><a className="btn secondary" href="https://linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a></li>
               </ul>
               <div className={styles.map} role="img" aria-label="Ilustración espacial">
