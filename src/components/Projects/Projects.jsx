@@ -51,8 +51,8 @@ export default function Projects({id}){
                   <img src={p.img} alt={`Vista previa de ${p.title}`} loading="lazy" />
                   <div className={styles.overlay}>
                     <a className="btn secondary" href="https://github.com/Santygm04/Walking-Group/tree/main/mambo-market" aria-label="Ver código en GitHub">GitHub</a>
-                    <a className="btn secondary1" href="https://github.com/Santygm04/aesthetic-ecommerce" aria-label="Ver código en GitHub">GitHub</a>
-                    <a className="btn secondary2" href="https://github.com/Santygm04/Walking-Group/tree/main/mambo-market" aria-label="Ver código en GitHub">GitHub</a>
+                    <a  href="https://github.com/Santygm04/aesthetic-ecommerce" aria-label="Ver código en GitHub">GitHub</a>
+                    <a  href="https://github.com/Santygm04/Walking-Group/tree/main/mambo-market" aria-label="Ver código en GitHub">GitHub</a>
                   </div>
                 </div>
                 <div className={styles.body}>
