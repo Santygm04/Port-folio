@@ -27,7 +27,7 @@ const allProjects = [
     id:3,
     title:'Landing Page Corporativa',
     img:'/src/assets/mambo.png',
-    desc:'Página de aterrizaje moderna para empresa de estudio de mercado con animaciones y diseño responsive',
+    desc:'Página moderna para empresa corporativa de estudio de mercado con animaciones y diseño responsive',
     stack:['React','JavaScript','CSS'],
     tags:['react'],
     href:'https://walking-group.vercel.app/',
