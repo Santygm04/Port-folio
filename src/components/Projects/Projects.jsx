@@ -7,7 +7,7 @@ const allProjects = [
   {
     id:1,
     title:'E-commerce Mayorista',
-    img:'/src/assets/project1.svg',
+    img:'/src/assets/aesthetic.png',
     desc:'Plataforma mayorista de indumentaria con catálogo completo, gestión de pedidos al por mayor y sistema de precios diferenciados',
     stack:['React','Node.js','CSS','JavaScript','MondoDB'],
     tags:['react']
@@ -50,7 +50,9 @@ export default function Projects({id}){
                 <div className={styles.preview}>
                   <img src={p.img} alt={`Vista previa de ${p.title}`} loading="lazy" />
                   <div className={styles.overlay}>
-                    <a className="btn secondary" href="https://github.com/Santygm04/Walking-Group" aria-label="Ver código en GitHub">GitHub</a>
+                    <a className="btn secondary" href="https://github.com/Santygm04/Walking-Group/tree/main/mambo-market" aria-label="Ver código en GitHub">GitHub</a>
+                    <a className="btn secondary" href="https://github.com/Santygm04/aesthetic-ecommerce" aria-label="Ver código en GitHub">GitHub</a>
+                    <a className="btn secondary" href="https://github.com/Santygm04/Walking-Group/tree/main/mambo-market" aria-label="Ver código en GitHub">GitHub</a>
                   </div>
                 </div>
                 <div className={styles.body}>
