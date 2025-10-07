@@ -9,22 +9,22 @@ const allProjects = [
     title:'E-commerce Mayorista',
     img:'/src/assets/project1.svg',
     desc:'Plataforma mayorista de indumentaria con catálogo completo, gestión de pedidos al por mayor y sistema de precios diferenciados',
-    stack:['React','Node.js','CSS','JavaScript'],
+    stack:['React','Node.js','CSS','JavaScript','MondoDB'],
     tags:['react']
   },
   {
     id:2,
-    title:'E-commerce Minorista',
+    title:'E-commerce Jugueteria',
     img:'/src/assets/project2.svg',
     desc:'Tienda online minorista de ropa para hombre y mujer con carrito de compras, filtros por género y tallas, y sistema de pagos integrado',
-    stack:['React','Node.js','CSS','JavaScript'],
+    stack:['React','Node.js','Tailwind','JavaScript','MongoDB'],
     tags:['react']
   },
   {
     id:3,
     title:'Landing Page Corporativa',
     img:'/src/assets/project3.svg',
-    desc:'Página de aterrizaje moderna para empresa tecnológica con animaciones y diseño responsive',
+    desc:'Página de aterrizaje moderna para empresa de estudio de mercado con animaciones y diseño responsive',
     stack:['React','JavaScript','CSS'],
     tags:['react']
   },
@@ -50,7 +50,6 @@ export default function Projects({id}){
                 <div className={styles.preview}>
                   <img src={p.img} alt={`Vista previa de ${p.title}`} loading="lazy" />
                   <div className={styles.overlay}>
-                    <a className="btn" href="#" aria-label="Ver demo">Demo</a>
                     <a className="btn secondary" href="#" aria-label="Ver código en GitHub">GitHub</a>
                   </div>
                 </div>
