@@ -4,9 +4,9 @@ import { motion } from 'framer-motion'
 
 const skills = [
   { name:'HTML', level:100, label:'Avanzado', note:'Estructura semántica y accesible' },
-  { name:'CSS', level:90, label:'Avanzado', note:'Diseño responsive y animaciones' },
-  { name:'JavaScript', level:60, label:'Intermedio', note:'ES6+, DOM y APIs modernas' },
-  { name:'React', level:45, label:'Básico', note:'Componentes y hooks' },
+  { name:'CSS', level:80, label:'Avanzado', note:'Diseño responsive y animaciones' },
+  { name:'JavaScript', level:50, label:'Intermedio', note:'ES6+, DOM y APIs modernas' },
+  { name:'React', level:40, label:'Básico', note:'Componentes y hooks' },
   { name:'Bootstrap', level:45, label:'Básico', note:'Framework CSS responsive' },
   { name:'SQL', level:30, label:'Básico', note:'Consultas y bases de datos' },
   { name:'MongoDB', level:15, label:'Aprendiendo', note:'' },
