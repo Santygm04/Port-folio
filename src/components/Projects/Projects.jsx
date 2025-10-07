@@ -23,7 +23,7 @@ const allProjects = [
   {
     id:3,
     title:'Landing Page Corporativa',
-    img:'/src/assets/project3.svg',
+    img:'/src/assets/mambo.png',
     desc:'Página de aterrizaje moderna para empresa de estudio de mercado con animaciones y diseño responsive',
     stack:['React','JavaScript','CSS'],
     tags:['react']
@@ -50,7 +50,7 @@ export default function Projects({id}){
                 <div className={styles.preview}>
                   <img src={p.img} alt={`Vista previa de ${p.title}`} loading="lazy" />
                   <div className={styles.overlay}>
-                    <a className="btn secondary" href="#" aria-label="Ver código en GitHub">GitHub</a>
+                    <a className="btn secondary" href="https://github.com/Santygm04/Walking-Group" aria-label="Ver código en GitHub">GitHub</a>
                   </div>
                 </div>
                 <div className={styles.body}>
