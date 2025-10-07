@@ -1,0 +1,13 @@
+.toggle{
+  display:inline-flex; align-items:center; gap:.5rem; padding:.5rem .7rem; border-radius:12px;
+  border:1px solid rgba(255,255,255,.06); background:rgba(255,255,255,.02); color:inherit
+}
+.toggle:hover{ box-shadow:0 0 16px rgba(52,211,153,.14) }
+.icon{ filter: drop-shadow(0 0 6px rgba(52,211,153,.18)) }
+.label{font-size:.9rem}
+
+/* ===== modo claro ===== */
+:global(.theme-light) .toggle{
+  background:#ffffff; border-color:rgba(10,19,48,.10)
+}
+:global(.theme-light) .toggle:hover{ box-shadow:0 8px 16px rgba(10,19,48,.10) }

@@ -1,0 +1,41 @@
+.grid{display:grid; grid-template-columns:1fr; gap:14px}
+@media (min-width:700px){ .grid{grid-template-columns:1fr 1fr} }
+@media (min-width:1000px){ .grid{grid-template-columns:1fr 1fr 1fr} }
+
+.card{
+  background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.02));
+  border:1px solid rgba(255,255,255,.06);
+  padding:16px; border-radius:14px;
+  transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.card:hover{ transform: translateY(-4px); box-shadow:0 0 18px rgba(52,211,153,.14); border-color: rgba(52,211,153,.22) }
+
+.head{display:flex; align-items:baseline; justify-content:space-between; margin-bottom:10px}
+
+.bar{
+  position:relative; height:10px; background:rgba(255,255,255,.05);
+  border-radius:999px; overflow:hidden;
+  border:1px solid rgba(255,255,255,.05); margin:10px 0 8px;
+}
+.fill{
+  --w: 0%; display:block; height:100%; width:var(--w); border-radius:inherit;
+  background: linear-gradient(90deg, rgba(52,211,153,.18), rgba(52,211,153,.30));
+  box-shadow: 0 0 12px rgba(52,211,153,.18);
+  animation: grow 1.4s ease forwards;
+}
+@keyframes grow{ from{ width:0 } to{ width:var(--w) } }
+
+.meta{display:flex; align-items:center; gap:10px; justify-content:space-between}
+.percent{color:var(--cyan-2); font-weight:600}
+
+/* ===== modo claro ===== */
+:global(.theme-light) .card{
+  background:#ffffff; border-color: rgba(10,19,48,.10)
+}
+:global(.theme-light) .bar{
+  background:rgba(10,19,48,.08); border-color:rgba(10,19,48,.10)
+}
+:global(.theme-light) .fill{
+  background:linear-gradient(90deg, rgba(21,185,138,.22), rgba(21,185,138,.34));
+  box-shadow:0 0 10px rgba(21,185,138,.22)
+}

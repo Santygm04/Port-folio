@@ -1,0 +1,11 @@
+
+.wrap{display:flex; gap:.4rem; align-items:center}
+.btn{
+  display:inline-flex; align-items:center; gap:.45rem;
+  padding:.45rem .6rem; border-radius:12px; border:1px solid rgba(255,255,255,.08);
+  background:rgba(255,255,255,.04); color:inherit; font-size:.9rem
+}
+.btn:hover{ box-shadow: var(--glow) }
+.active{ outline: 2px solid rgba(79,195,247,.35) }
+.dot{ width:10px; height:10px; border-radius:50%; box-shadow:0 0 10px rgba(255,255,255,.3) }
+.label{opacity:.9}

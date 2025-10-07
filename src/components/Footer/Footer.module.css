@@ -1,0 +1,24 @@
+.footer{
+  padding:28px 0;
+  border-top:1px solid rgba(255,255,255,.05);
+  background:rgba(255,255,255,.01)
+}
+.wrap{
+  display:flex; justify-content:space-between; align-items:center; gap:10px;
+  color:var(--muted); font-size:.95rem
+}
+.top{
+  padding:.5rem .7rem; border-radius:10px;
+  background:rgba(255,255,255,.03);
+  border:1px solid rgba(255,255,255,.05)
+}
+.top:hover{ box-shadow:0 0 16px rgba(52,211,153,.16) }
+
+/* ===== modo claro ===== */
+:global(.theme-light) .footer{
+  background:#ffffff; border-top-color: rgba(10,19,48,.08)
+}
+:global(.theme-light) .top{
+  background:#ffffff; border-color: rgba(10,19,48,.10)
+}
+:global(.theme-light) .top:hover{ box-shadow:0 8px 16px rgba(10,19,48,.10) }

@@ -1,0 +1,36 @@
+.header{
+  position:sticky; top:0; inset-inline:0; z-index:50;
+  backdrop-filter:saturate(150%) blur(8px);
+  background:linear-gradient(180deg, rgba(8,12,22,.70), rgba(8,12,22,.30));
+  border-bottom:1px solid rgba(255,255,255,.05);
+}
+.wrap{display:flex; align-items:center; justify-content:space-between; padding:12px 0}
+.brand{display:flex; align-items:center; gap:.6rem; font-weight:700; letter-spacing:.3px}
+.brandText{position:relative; z-index:1}
+.logoGlow{width:12px;height:12px;border-radius:50%;background:var(--cyan);box-shadow:0 0 16px var(--accent-glow)}
+.nav{display:none; gap:.6rem}
+@media (min-width: 800px){ .nav{display:flex} }
+
+.link{
+  padding:.6rem .9rem; border-radius:12px; color:var(--muted);
+  font-weight:600; letter-spacing:.2px;
+  transition:color .2s ease, background .2s ease, transform .2s ease;
+}
+.link:hover{color:var(--text); background:rgba(255,255,255,.03)}
+.active{
+  color:var(--text);
+  background:rgba(52,211,153,.10);
+  box-shadow:0 0 18px rgba(52,211,153,.14)
+}
+
+/* ===== modo claro ===== */
+:global(.theme-light) .link{
+  color:#41556f;
+}
+:global(.theme-light) .link:hover{
+  color:#0a1330; background:rgba(10,19,48,.06)
+}
+:global(.theme-light) .active{
+  background:rgba(21,185,138,.12);
+  box-shadow:0 0 14px rgba(21,185,138,.16)
+}
