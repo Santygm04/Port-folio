@@ -15,10 +15,10 @@ const allProjects = [
   },
   {
     id:2,
-    title:'E-commerce Tienda',
+    title:'E-commerce Tienda Ropa',
     img:'/src/assets/project2.svg',
     desc:'Tienda online minorista de ropa para hombre y mujer con carrito de compras, filtros por género y tallas, y sistema de pagos integrado',
-    stack:['React','Node.js','Tailwind','JavaScript','MongoDB'],
+    stack:['React','Node.js','CSS','JavaScript','MongoDB'],
     tags:['react'],
     href:'/proyectos/jugueteria',
     repo:'https://github.com/Santygm04' // ajustá al repo correcto si querés
@@ -32,6 +32,17 @@ const allProjects = [
     tags:['react'],
     href:'https://walking-group.vercel.app/',
     repo:'https://github.com/Santygm04/Walking-Group/tree/main/mambo-market'
+  },
+  // === NUEVO PROYECTO ===
+  {
+    id:4,
+    title:'E-commerce Jugueteria',
+    img:'/src/assets/portfolio.png', // ← poné tu imagen o ajustá la ruta
+    desc:'Portfolio interactivo con proyectos, animaciones y formulario de contacto.',
+    stack:['React','Framer Motion','CSS'],
+    tags:['react'],
+    href:'/proyectos/portfolio',                   // ← ruta o URL de demo
+    repo:'https://github.com/Santygm04/portfolio' // ← repo correspondiente
   },
 ]
 
