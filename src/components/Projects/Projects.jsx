@@ -34,16 +34,16 @@ const allProjects = [
     repo:'https://github.com/Santygm04/Walking-Group/tree/main/mambo-market'
   },
   // === NUEVO PROYECTO ===
-  {
-    id:4,
-    title:'E-commerce Jugueteria',
-    img:'/src/assets/portfolio.png', // ← poné tu imagen o ajustá la ruta
-    desc:'Portfolio interactivo con proyectos, animaciones y formulario de contacto.',
-    stack:['React','Framer Motion','CSS'],
-    tags:['react'],
-    href:'/proyectos/portfolio',                   // ← ruta o URL de demo
-    repo:'https://github.com/Santygm04/portfolio' // ← repo correspondiente
-  },
+  // {
+  //   id:4,
+  //   title:'E-commerce Jugueteria',
+  //   img:'/src/assets/portfolio.png', // ← poné tu imagen o ajustá la ruta
+  //   desc:'Portfolio interactivo con proyectos, animaciones y formulario de contacto.',
+  //   stack:['React','Framer Motion','CSS'],
+  //   tags:['react'],
+  //   href:'/proyectos/portfolio',                   // ← ruta o URL de demo
+  //   repo:'https://github.com/Santygm04/portfolio' // ← repo correspondiente
+  // },
 ]
 
 export default function Projects({id}){
